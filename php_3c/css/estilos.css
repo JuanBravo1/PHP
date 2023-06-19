@@ -1,0 +1,53 @@
+body {
+  background-color: white;
+  padding: 15px;
+  background-image:url(/src/fondo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  
+}
+#sech {
+  display: flex;
+}
+
+h1,h2{
+    color: green;
+    
+}
+.imgh {
+  height: 70px;
+  width: 70px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+select:valid,
+input:valid {
+  border-width: 3px;
+  border-color: lightgreen;
+  border-style: double;
+  background-color: rgba(144, 238, 144, 0.474);
+  
+}
+select:invalid,
+input:invalid {
+  border-width: 3px;
+  border-color: lightpink;
+  border-style: double;
+  background-color: rgba(255, 182, 193, 0.475);
+}
+
+label,legend{
+  color: white;
+}
+
+p{
+  color:white
+}

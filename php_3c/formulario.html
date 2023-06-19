@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login...</title>
+    <link rel="stylesheet" href="./css/estilos.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>INGRESE</h1>
+        <img src="./src/logo.png" alt="ok" class="imgh" />
+      </header>
+      <section>
+        <h2>Formulario de logueo...</h2>
+        <form method="get" autocomplete="off" id="frmlogin">
+          <fieldset>
+            <legend>Login...</legend>
+            <table>
+              <tr>
+                <td><label for="user">Usuario : </label></td>
+                <td>
+                  <input
+                    type="text"
+                    name="user"
+                    id="user"
+                    placeholder="Usuario..."
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="pass">Password : </label></td>
+                <td>
+                  <input
+                    type="password"
+                    name="pass"
+                    id="pass"
+                    placeholder="Password"
+                    required
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="submit" value="Login" id="boton" /></td>
+              </tr>
+            </table>
+            <p>Aun no tienes cuenta? <a href="registro.html">Aqui...</a></p>
+          </fieldset>
+        </form>
+      </section>
+      <footer>
+        <h2>Practica 3C</h2>
+        <img src="./src/logo.png" alt="ok" class="imgh" />
+      </footer>
+    </div>
+    <script src="./js/formularios.js"></script>
+  </body>
+</html>
